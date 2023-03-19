@@ -6,7 +6,7 @@ class Config(object):
     # AHCompressBot....
     # sucks Dude
     APP_ID = get_config("APP_ID", "6381607")
-    API_HASH = get_config("API_HASH", "9799ad1623afe9bad664501f984b71fe)
+    API_HASH = get_config("API_HASH", "9799ad1623afe9bad664501f984b71fe")
     LOG_CHANNEL = get_config("LOG_CHANNEL", "logchannelcc")
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without @ LOL
      # Get these values from my.telegram.org
